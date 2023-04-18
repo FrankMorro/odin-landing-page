@@ -145,7 +145,8 @@ li {
   align-items: center;
   align-content: center;
   gap: 20px;
-  height: 600px;
+  height: 450px;
+  margin: 10px;
 }
 
 .photo-grid-title {
@@ -157,7 +158,8 @@ li {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 10px;
+  margin: 10px;
 }
 
 .photo-grid-item {
@@ -170,6 +172,10 @@ li {
   margin: 10px;
   box-shadow: 2px 3px 2px #3b4a5e;
   width: 200px;
+}
+
+.photo-grid-text {
+  padding: 10px;
 }
 
 /* Section 03 - Cite */
@@ -186,7 +192,6 @@ li {
   width: 900px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .cite-text,
@@ -214,7 +219,7 @@ li {
   display: flex;
   align-items: center;
   width: 1200px;
-  height: 200px;
+  height: 250px;
   background-color: #3882f6;
   border-radius: 16px;
   justify-content: space-around;
