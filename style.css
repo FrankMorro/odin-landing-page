@@ -112,9 +112,9 @@ p {
   margin-top: 10px;
   width: 100px;
   background-color: #3882f6;
-  border-color: #e5e7eb;
+  border-color: white;
   border-radius: 8px;
-  border: none;
+  /* border: none; */
   color: #e5e7eb;
 }
 
@@ -189,6 +189,41 @@ p {
 .cite-author {
   font-weight: 600;
   text-align: right;
+}
+
+/* Section 04 */
+.call-action-container {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.call-action {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  height: 200px;
+  background-color: #3882f6;
+  border-radius: 16px;
+  justify-content: space-around;
+  padding: 100px;
+  gap: 50px;
+}
+
+.call-action-title {
+  font-size: 36px;
+}
+
+.call-action-btn {
+  padding: 8px;
+  margin-top: 10px;
+  width: 100px;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 8px;
+  color: #e5e7eb;
 }
 
 /* Footer */
