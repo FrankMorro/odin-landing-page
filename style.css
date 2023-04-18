@@ -43,6 +43,11 @@ body {
   /* margin-right: 30px; */
 }
 
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 a {
   text-decoration: none;
   color: #e5e7eb;
@@ -73,7 +78,7 @@ li {
   flex-wrap: wrap;
 }
 
-.description {
+.description-title {
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -94,27 +99,19 @@ li {
   border: 1px solid #ccc;
   margin: 10px;
   box-shadow: 1px 3px 2px #3b4a5e;
-
-  margin-right: 30px;
-}
-
-p {
-  font-size: 18px;
-  color: #e5e7eb;
 }
 
 .description-container {
   gap: 10px;
 }
 
-.description-button {
+.description-btn {
   padding: 8px;
   margin-top: 10px;
   width: 100px;
   background-color: #3882f6;
-  border-color: white;
+  border-color: #3882f6;
   border-radius: 8px;
-  /* border: none; */
   color: #e5e7eb;
 }
 
@@ -132,7 +129,7 @@ p {
   align-items: center;
   align-content: center;
   gap: 20px;
-  height: 450px;
+  height: 600px;
 }
 
 .photo-grid-title {
@@ -143,14 +140,11 @@ p {
   width: 900px;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .photo-grid-item {
-  /* border: 1px solid #1f2937; */
-  width: 300px;
-  height: 300px;
   text-align: center;
 }
 
@@ -159,14 +153,13 @@ p {
   border-radius: 16px;
   margin: 10px;
   box-shadow: 1px 3px 2px #3b4a5e;
-
-  padding: 20px;
+  width: 200px;
 }
 
 /* Section 03 - Cite */
 .cite-grid-container {
   background-color: #e5e7eb;
-  height: 400px;
+  height: 550px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -184,6 +177,7 @@ p {
 .cite-author {
   color: #1f2937;
   font-size: 36px;
+  padding: 10px;
 }
 
 .cite-author {
@@ -194,7 +188,7 @@ p {
 /* Section 04 */
 .call-action-container {
   display: flex;
-  height: 400px;
+  height: 450px;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -208,7 +202,7 @@ p {
   background-color: #3882f6;
   border-radius: 16px;
   justify-content: space-around;
-  padding: 100px;
+  padding: 20px;
   margin: 10px;
   gap: 50px;
 }
@@ -233,11 +227,16 @@ p {
 }
 
 /* Footer */
-footer {
+.footer-container {
   height: 100px;
   background-color: #1f2937;
   color: white;
   display: flex;
   align-items: center;
   align-content: center;
+  justify-content: center;
+}
+
+footer {
+  font-size: 24px;
 }
