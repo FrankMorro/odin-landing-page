@@ -16,8 +16,24 @@ body {
   flex-direction: column;
 }
 
-.img-logo {
-  width: 150px;
+.logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.logo-title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
 }
 
 .header--logo {
@@ -149,10 +165,10 @@ li {
 }
 
 .card-img {
-  border: 2px solid #3882f6;
+  /* border: 2px solid #3882f6; */
   border-radius: 16px;
   margin: 10px;
-  box-shadow: 1px 3px 2px #3b4a5e;
+  box-shadow: 2px 3px 2px #3b4a5e;
   width: 200px;
 }
 
@@ -228,7 +244,7 @@ li {
 
 /* Footer */
 .footer-container {
-  height: 100px;
+  height: 150px;
   background-color: #1f2937;
   color: white;
   display: flex;
